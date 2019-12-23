@@ -137,7 +137,6 @@ for f in stream:
 print("Elapsed {:0.2f} seconds, estimated FPS {:0.2f}".format(time_elapsed, N / time_elapsed))
 callservooff()
 
-
 # Release resources
 stream.close()
 rawCapture.close()
